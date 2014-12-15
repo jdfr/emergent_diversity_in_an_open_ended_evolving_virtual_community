@@ -1,0 +1,15 @@
+This is a snapshot of the code used for the paper "Emergent Diversity in an Open-Ended Evolving Virtual Community" (DOI 10.1162/artl_a_00059), both to run simulations of artificial plant ecosystems and to run analyses of said simulations.
+
+The code was run in Matlab R2007b and requires some third-party code from the Matlab FileExchange:
+
+* arrow.m: to draw arrows in figures
+
+* strdist.m: to compute string distances
+
+* imcapture.m: to capture screenshots from figures
+
+* freezeColors / unfreezeColors: makes it easier to generate some of the plots
+
+Originally, this code was in a SVN repository. This is a copy of the last state of the SVN repo, shortly after acceptance of the paper.
+
+The main script for running simulations was sim/main.m. Most of the code was devoted not to the simulation but to running analysis tools on the simulations and plotting the results.
