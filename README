@@ -12,4 +12,6 @@ The code was run in Matlab R2007b and requires some third-party code from the Ma
 
 Originally, this code was in a SVN repository. This is a copy of the last state of the SVN repo, shortly after acceptance of the paper.
 
+The LICENSE file contains the license under which the original parts of the source code are licensed. In a drive to harmonize licensing terms over all my repositories for journal papers, the license has been updated to the AGPLv3. DISCLAIMER: If any file in this repository contains source code from a third party (such as any code from the Matlab File Exchange that might have been inadvertedly included), the aforementioned license does not cover it, and it is licensed under its original terms and conditions.
+
 The main script for running simulations was sim/main.m. Most of the code was devoted not to the simulation but to running analysis tools on the simulations and plotting the results.
